@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Positive">
+    <test name="Positive">
+        <groups>
+            <run>
+                <exclude name="negative"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.epam.sum_university.test_automation.calculator.test.CalculatorTest"/>
+        </classes>
+    </test>
+</suite>
